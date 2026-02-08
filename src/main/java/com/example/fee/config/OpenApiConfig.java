@@ -20,7 +20,7 @@ public class OpenApiConfig {
                         .version("1.0"))
                 .servers(List.of(
                         new Server()
-                                .url("https://upgraded-space-barnacle-97gr9x465976f7wrx-8081.app.github.dev")
+                                .url("https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev")
                 ));
     }
 }
