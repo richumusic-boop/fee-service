@@ -20,7 +20,7 @@ public class OpenApiConfig {
                         .version("1.0"))
                 .servers(List.of(
                         new Server()
-                                .url("https://fictional-palm-tree-v6j9v57prvqwf69jj-8081.app.github.dev")
+                                .url("https://upgraded-space-barnacle-97gr9x465976f7wrx-8081.app.github.dev")
                 ));
     }
 }
