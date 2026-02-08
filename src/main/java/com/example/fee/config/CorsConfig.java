@@ -1,7 +1,5 @@
 package com.example.fee.config;
 
- // replace with fee.config for Fee Service
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -15,8 +13,8 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")       // all endpoints
-                        .allowedOrigins("*")     // allow all origins (for testing)
+                registry.addMapping("/**")  // all endpoints
+                        .allowedOrigins("https://fictional-palm-tree-v6j9v57prvqwf69jj-8081.app.github.dev")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
