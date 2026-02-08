@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")  // all endpoints
-                        .allowedOrigins("https://upgraded-space-barnacle-97gr9x465976f7wrx-8081.app.github.dev")
+                        .allowedOrigins("https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
