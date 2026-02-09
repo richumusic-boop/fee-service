@@ -92,10 +92,9 @@ mvn clean spring-boot:run
 ```
 
 **Available URLs**
-- Application: http://localhost:8080
-- Swagger UI: http://localhost:8080/swagger-ui/index.html
-- OpenAPI Docs: http://localhost:8080/v3/api-docs
-- H2 Console: http://localhost:8080/h2-console
+- Swagger UI: https://expert-computing-machine-4jp57r9qv7gj2j4g-8080.app.github.dev/swagger-ui/index.html
+- OpenAPI Docs: https://expert-computing-machine-4jp57r9qv7gj2j4g-8080.app.github.dev/v3/api-docs
+- H2 Console: https://expert-computing-machine-4jp57r9qv7gj2j4g-8080.app.github.dev/h2-console
 
 ---
 
@@ -109,10 +108,9 @@ mvn clean spring-boot:run
 ```
 
 **Available URLs**
-- Application: http://localhost:8081
-- Swagger UI: http://localhost:8081/swagger-ui/index.html
-- OpenAPI Docs: http://localhost:8081/v3/api-docs
-- H2 Console: http://localhost:8081/h2-console
+- Swagger UI: https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev/swagger-ui/index.html
+- OpenAPI Docs: https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev/v3/api-docs
+- H2 Console: https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev/h2-console
 
 ---
 
@@ -120,8 +118,8 @@ mvn clean spring-boot:run
 
 Swagger provides interactive API documentation.
 
-- Student Service: http://localhost:8080/swagger-ui/index.html
-- Fee Service: http://localhost:8081/swagger-ui/index.html
+- Student Service: https://expert-computing-machine-4jp57r9qv7gj2j4g-8080.app.github.dev/swagger-ui/index.html/swagger-ui/index.html
+- Fee Service: https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev/swagger-ui/index.html/swagger-ui/index.html
 
 Swagger can be used to:
 - Explore all APIs
@@ -186,7 +184,7 @@ POST /fees
 GET /fees/receipt/pdf/{receiptId}
 ```
 
----
+Eg:receipt.pdf
 
 ## Running Tests
 
@@ -264,7 +262,7 @@ springdoc.swagger-ui.path=/swagger-ui.html
 
 ## Author
 
-**Farhan**  
+**Nizamudeen pa**  
 Backend Developer – Java & Spring Boot
 
 ---
