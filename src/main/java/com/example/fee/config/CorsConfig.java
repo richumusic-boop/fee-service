@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")  // all endpoints
-                        .allowedOrigins("https://expert-computing-machine-4jp57r9qv7gj2j4g-8081.app.github.dev")
+                        .allowedOrigins("https://fee-service-49mk.onrender.com")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
